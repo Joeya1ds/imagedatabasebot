@@ -9,4 +9,4 @@ The comments further explain what the lines of code do and what needs to be done
 
 This code is free to be used, modified, and distributed by anyone.
 
-If you have any additional questions feel free to dm me on discord at: Joeyy#6969
+If you have any additional questions feel free to dm me on discord at: Joeyy#4628
