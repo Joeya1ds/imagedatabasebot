@@ -1,11 +1,9 @@
 # imagedatabasebot
-Discord image- stores images locally in the same folder as py script &amp; sends images in the database
+Discord image- stores images locally in the same folder as py script &amp; sends images from the local folder when a command is used.
 
-This is a bot that stores ALL images that meet the image criteria locally on the machine from discord servers the bot has access to. It only downloads: '.png', '.jpeg', '.jpg', and '.gif' for security reasons (i.e no executables or other malicious software that could potentially be spread). Additonally, the image requirements stop the python script itself from being sent as they are hosted in the same folder.
+This is a bot that stores ALL images that meet the image criteria locally on the machine from discord servers the bot has access to. It only downloads: '.png', '.jpeg', '.jpg', and '.gif' for security reasons (i.e no executables or other malicious software that could potentially be spread). Additonally, the image requirements stop the python script &amp; other bot files from being sent as they are hosted in the same folder.
 
-The only changes that need to be made by the user are the directory that the images are pulled from (IT NEEDS TO BE THE SAME AS THE PY SCRIPT) & the token for your discord bot - which can be found on the discord developer portal.
-
-The comments further explain what the lines of code do and what needs to be done by the user.
+Several changes are REQUIRED to be made by the user: log files outputs (if you want log name customization), directory needs to be added for image downloading (needs to be the same folder as the other bot files), along with discord bot ID to filter its own messages and the required token to link the bot to the script.
 
 This code is free to be used, modified, and distributed by anyone.
 
